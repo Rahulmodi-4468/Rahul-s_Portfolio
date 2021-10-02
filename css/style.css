@@ -185,6 +185,9 @@ color:white
     [class*="col-"]{
         width: 100%;
     }
+    .list-item-inline{
+        display: block;
+    }
 }
 .row::after{
     content: "";
