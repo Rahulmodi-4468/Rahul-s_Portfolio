@@ -72,7 +72,7 @@ color:white
 .navigation .nav-brand{
     
     justify-content: flex-start;
-    /*padding-top: 1rem;*/
+    padding-left: 1.5rem;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -132,7 +132,7 @@ color:white
 }
 
 .div{
-    background-color: var(--off-white);
+    background-color: var(--dark-grey);
 }
 .section p{
     padding-bottom: 1rem;
