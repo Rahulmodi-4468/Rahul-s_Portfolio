@@ -55,7 +55,6 @@ hr{
 }
 .list-item-inline{
 display: inline-block;
-padding: 0rem 0rem;
 color:white
 }
 
@@ -66,13 +65,14 @@ color:white
     justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
-    padding: 0.5rem;
+    padding: 0.2rem 0.2rem;
     border-bottom-left-radius:1rem ;
+    border-top-right-radius:1rem ;
 }
 .navigation .nav-brand{
     
     justify-content: flex-start;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     font-weight: bold;
     font-size: 1.3rem;
 }
@@ -89,11 +89,14 @@ color:white
 }
 .nav-pills .link:hover,.nav-pills .link:hover{
     letter-spacing: 0.2rem;
+    background-color: var(--dark-grey);
+    color: var(--primary-color);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .navigation .link-active{
     font-weight: bolder;
 }
-
 /**header**/
 
 .hero{
@@ -149,6 +152,9 @@ color:white
     color: white;
     clear: both;
     height: 100px;
+    border-top-left-radius:1rem ;
+    border-bottom-right-radius:1rem ;
+
 }
 
 .footer .link{
@@ -185,10 +191,12 @@ color:white
     [class*="col-"]{
         width: 100%;
     }
-    .list-item-inline{
+    .navigation .list-item-inline{
         display: block;
     }
+    
 }
+
 .row::after{
     content: "";
     clear: both;
