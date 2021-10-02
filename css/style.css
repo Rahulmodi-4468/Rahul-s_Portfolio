@@ -55,7 +55,7 @@ hr{
 }
 .list-item-inline{
 display: inline-block;
-padding: 0rem 0.5rem;
+padding: 0rem 0rem;
 color:white
 }
 
@@ -74,7 +74,7 @@ color:white
     justify-content: flex-start;
     padding-left: 1.5rem;
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
 }
 .navigation .link{
     color: white;
@@ -139,11 +139,16 @@ color:white
 }
 
 .footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: var(--primary-color);
-    padding: 2rem 1rem;
+    padding-top: 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 0.5rem;
+    clear: both;
+    height: 100px;
 }
 
 .footer .link{
