@@ -14,17 +14,25 @@ body{
 hr{
     margin: 1rem 0rem;
 }
+
+/**spaces**/
+.margin-md{
+    margin: 2rem;
+}
 .container{
-    padding:0rem 1rem;
+    padding:1rem 1rem;
 }
 .container-center{
     max-width: 600px;
     margin: auto;
+    text-align: center;
 }
 /** Links **/
 .link{
+    box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1rem;
+    margin: 1rem 0rem;
 }
 .link-primary{
     background-color: var(--primary-color);
@@ -42,31 +50,44 @@ hr{
     list-style: none;
 }
 .list-item-inline{
-display: inline;
+display: inline-block;
 padding: 0rem 0.5rem;
+color:white
 }
 
 /**navigation**/
 .navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: var(--primary-color);
     color: white;
-    pad: 1rem;
+    padding: 0.5rem;
     border-bottom-left-radius:1rem ;
 }
 .navigation .nav-brand{
+    max-width: 100px;
+    justify-content: flex-start;
+    /*padding-top: 1rem;*/
     font-weight: bold;
     font-size: 1.1rem;
 }
 .navigation .link{
     color: white;
+    
 }
 .navigation .nav-pills{
     text-align: right;
 }
-
+.nav-image{
+    max-width: 80px;
+    justify-content: flex-start;
+}
+.nav-pills .link:hover,.nav-pills .link:hover{
+    letter-spacing: 0.3rem;
+}
 .navigation .link-active{
-    font-weight: bold;
-
+    font-weight: bolder;
 }
 
 /**header**/
@@ -78,8 +99,16 @@ padding: 0rem 0.5rem;
     max-width: 350px;
     display: block;
     margin:auto;
+    padding-top: 3rem;
+}
+.hero .hero-text{
+    padding-top: 1rem;
+    color: var(--dark-grey);
+    text-align: center;
+    line-height: 160%;
 }
 .hero .hero-heading{
+    text-align: center;
     padding-top: 1rem;
     color: var(--dark-grey);
 }
@@ -89,11 +118,49 @@ padding: 0rem 0.5rem;
 
 /** Sections**/
 .section{
-    padding: 2rem;
+    padding: 0.5rem 0rem;
+    display: block;
+    justify-content: center;
 }
-.section h3 {
+.section h1 {
     text-align: center;
+       letter-spacing: 0.1rem;
 }
+
 .div{
     background-color: var(--off-white);
+}
+.section p{
+    padding-bottom: 1rem;
+}
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    background-color: #A9A9A9;
+    border: 1px solid red;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
 }

@@ -1,142 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-   
-    <link href="css/style.css" rel="stylesheet" />
-</head>
-
+    <title>Rahul's Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/></head>
 <body>
-    <h1 id="lib-header">Rahul's component library</h1>
-    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.
-    </p>
-
-    <hr>
-
-
-    <h2>@typography</h2>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest</h2>
-    <p class="para"> Let me show you the normal text. This is free flowing and will wrap at the end like a paragraph. </p>
-    <p class="para">This paragraph will have a <strong>bold</strong> text</p>
-    <small >This is relatively smaller text</small>
-
-    <hr>
-
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div class="container ">This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div class="container container-center">This is a centered container and it will go till the specified width</div>
-
-    <hr>
-
-    <h2>@links</h2>
-
-    <a href="/" class="link link-primary">Primary Link</a>
-    <a href="/" class="link link-secondary">Secondary Link</a>
-
-    <hr>
-
-    <h2>@lists</h2>
-
-    <h3>unordered list</h3>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3> unordered inline list</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">Inline Item One</li>
-        <li class="list-item-inline">Inline Item Two</li>
-        <li class="list-item-inline">Inline Item Three</li>
-    </ul>
-
-    <h3> reverse ordered list</h3>
-
-    <ol reversed>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>break</li>
-    </ol>
-
-    <hr />
-
-    <h2>@nav</h2>
-
     <nav class="navigation container">
         <div class="nav-brand">Rahul's Portfolio</div>
         <ul class="list-non-bullet nav-pills">
              <li class="list-item-inline ">
-                <a class="link active" href="/">home</a>
+                <a class="link link-active" href="/index.html">Home</a>
             </li>
              <li class="list-item-inline">
-                <a class="link"href="/">products</a>
+                <a class="link"href="/project.html">Projects's</a>
             </li>
              <li class="list-item-inline">
-                <a class="link"href="/">about</a>
+                <a class="link"href="/blog.html">Blog's</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>@header</h2>
 
     <header class="hero">
-        <img class="hero-img" src="image/hero.svg" />
-        <h1 class="hero-heading">Adarsh balika the<span class="heading-inverted"> web developer</span> </h1>
+        <img class="hero-img" src="/image/hero.svg" />
+        <h1 class="hero-heading">Rahul Modi  | <span class="heading-inverted"> Web developer</span> </h1>
+        <p style="font-weight: bolder;text-align:center;margin-top:1rem;">A final year postgraduate at <span style="color:var(--secondary-color)">Rollwala -Department of Computer Science</span><br> with a major in technologies. </p>
     </header>
 
-    <hr>
-    <h2>@section</h2>
-    <section class="section">
-       <div class="container container-center">
-        <h3>white section</h3>
-        <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
-       </div>
-    </section>
 
     <section class="section div">
-       <div class="container container-center">
-        <h3>off white section</h3>
-        <p>CSS (Cascading Style Sheets) is used to style and layout web pages — for example, to alter the font, color, size, and spacing of your content, split it into multiple columns, or add animations and other decorative features. This module provides a gentle beginning to your path towards CSS mastery with the basics of how it works, what the syntax looks like, and how you can start using it to add styling to HTML.</p>
-       </div>
+        <div class="container container-center">
+        <h1 >Technologies</h1>
+        <p>I am familier with HTML5, CSS3, Git, Javascript, NodeJS, ReactJS, C, CPP, Java, Python and Web Hosting</p>
+    
+        <!--<a class="link link-primary" href="http://">SEE TECGNOLOGIES</a>   
+        --></div>   
     </section>
+  
 
-    <hr>
+    <section class="section ">
+        <div class="container container-center">
+         <h1 >Projects</h1>
+         <p>I like to showcase my work and this, you can see my projects hosted online.</p>
+         <a class="link link-primary" href="http://">BROWSE PROJECT'S</a>
+        </div>
+     </section>
 
-    <h2>@footer</h2>
+     
 
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialTwo</li>
-            <li>socialThree</li>
+    <section class="section div">
+        <div class="container container-center">
+         <h1 >Blogs</h1>
+         <p>I am also working on some technical and non technical blogs.I like to document my journey of learning.</p>
+         
+         <a class="link link-primary" href="http://">READ BLOGS</a>
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div class="footer-header">Connect with me</div>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/RahulModi4468"><i class="fab fa-twitter-square fa-2x"></i></a>  </li>
+            <li class="list-item-inline"><a class="link" href="http://github.com/Rahulmodi-4468"><i class="fab fa-github-square fa-2x" ></i></a></li>
+            <li class="list-item-inline"><a class="link" href="http://linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a></li>
         </ul>
     </footer>
-
-
-
-
-
-
-    <!-- <div style="height: 30vh;"> -->
-
-    </div>
 </body>
-
 </html>
