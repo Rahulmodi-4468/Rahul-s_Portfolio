@@ -67,7 +67,7 @@ color:white
     color: white;
     padding: 0.2rem 0.2rem;
     border-bottom-left-radius:1rem ;
-    border-top-right-radius:1rem ;
+    
 }
 .navigation .nav-brand{
     
@@ -87,7 +87,7 @@ color:white
     max-width: 80px;
     justify-content: flex-start;
 }
-.nav-pills .link:hover,.nav-pills .link:hover{
+.nav-pills .link:hover{
     letter-spacing: 0.2rem;
     background-color: var(--dark-grey);
     color: var(--primary-color);
@@ -141,34 +141,9 @@ color:white
     padding-bottom: 1rem;
 }
 
-.footer{
-    position: relative;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: var(--primary-color);
-    padding-top: 1rem;
-    text-align: center;
-    color: white;
-    clear: both;
-    height: 100px;
-    border-top-left-radius:1rem ;
-    border-bottom-right-radius:1rem ;
 
-}
 
-.footer .link{
-    color: white;
-}
-.footer .footer-header{
-    font-weight: bold;
-    font-size: large;
-}
-.footer ul{
-    padding-inline-start: 0px;
-}
 .grid-container{
-    
     margin: auto;
     max-width: 1200px;
     align-items: center;
@@ -176,7 +151,6 @@ color:white
 .col-3 {
     width: 50%;
     display: block;
- 
 }
 .maincol{
     background-color: #FCE5E5;
@@ -206,4 +180,29 @@ color:white
 
 [class*="col-"]{
     float: left;
+}
+
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding-top: 1rem;
+    text-align: center;
+    color: white;
+    clear: both;
+    height: 100px;
+    border-top-left-radius:1rem ;
+}
+
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0px;
 }
