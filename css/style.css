@@ -13,7 +13,7 @@
 }
 body{
     font-family:'Poppins', sans-serif;
-    margin: 0;
+    margin: 0%;
 }
 hr{
     margin: 1rem 0rem;
@@ -48,7 +48,11 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
-
+.link-secondary:hover{
+    background-color: var(--primary-color);
+    color: white;
+    transition: 0.5s;
+}
 /**Lists**/
 .list-non-bullet{
     list-style: none;
@@ -189,7 +193,7 @@ color:white
     text-align: center;
     color: white;
     clear: both;
-    height: 100px;
+    height: 19vh;
     border-top-left-radius:1rem ;
     border-top-right-radius:1rem ;
 }
