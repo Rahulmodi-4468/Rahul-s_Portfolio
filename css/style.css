@@ -140,9 +140,6 @@ color:white
 .section p{
     padding-bottom: 1rem;
 }
-
-
-
 .grid-container{
     margin: auto;
     max-width: 1200px;
@@ -194,6 +191,7 @@ color:white
     clear: both;
     height: 100px;
     border-top-left-radius:1rem ;
+    border-top-right-radius:1rem ;
 }
 
 .footer .link{
