@@ -126,6 +126,9 @@ color:white
 .heading-inverted{
     color: var(--primary-color);
 }
+.bloging{
+    height: 60vh;
+}
 
 /** Sections**/
 .section{
@@ -146,8 +149,9 @@ color:white
 }
 .grid-container{
     margin: auto;
-    max-width: 1200px;
+    max-width: 1100px;
     align-items: center;
+
 }
 .col-3 {
     width: 50%;
@@ -160,7 +164,9 @@ color:white
     margin: 0.5rem 0.5rem 0rem 0.5rem; 
     padding: 0.5rem 1.5rem 1.5rem 1.5rem;
 }
-
+.blog2{
+    height: 20vh;
+}
 @media only screen and (max-width:900px) {
     /* Mobile View*/
     [class*="col-"]{
@@ -168,6 +174,9 @@ color:white
     }
     .navigation .list-item-inline{
         display: block;
+    }
+    .blog2{
+        visibility: hidden;
     }
     
 }
@@ -184,6 +193,7 @@ color:white
 }
 
 .footer{
+
     position: relative;
     left: 0;
     bottom: 0;
